@@ -1,0 +1,12 @@
+n = int(input('Enter the number : '))
+if(n==1):
+    print('It is neither prime nor composite number')
+else:
+    i=2
+    count = 0
+    while(i<n):
+        if(n%i==0):
+            print('It is a composite number')
+            count += 1
+            break
+        i+=1
